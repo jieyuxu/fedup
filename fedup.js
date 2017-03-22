@@ -44,7 +44,7 @@ var rev = d3.select(".rev");
       .style("width", function(d){
 			return d / 5 + "px"; })
 	  .text(function(d) {return d;})
-rev.insert("h3", ":first-child").text("Total Surplus/Deficit");
+rev.insert("h3", ":first-child").text("Total Revenue");
 
 var spdng = d3.select(".spdng");
     spdng.selectAll("div")
